@@ -28,8 +28,12 @@ DLLs and SYS device drivers are both subsets of executables in Windows. They all
 	2) To determine if SYS: struct IMAGE_NT_HEADERS -> struct IMAGE_OPTIONAL_HEADER -> WORD Subsystem
 		0001 means IMAGE_SUBSYSTEM_NATIVE, indicative of SYS file
 
-//https://www.unknowncheats.me/forum/general-programming-and-reversing/326543-winapi-pe-file-read-access-violation-trying-headers-dos-header.html
-//https://reverseengineering.stackexchange.com/questions/17110/run-pe-file-executable-from-memory
-//https://www.google.com/search?q=IMAGE_NT_HEADERS+unable+to+read+memory&rlz=1C1CHBD_arEG976EG976&biw=1270&bih=581&sxsrf=APq-WBuWEpvL-xqumvIEiEsjCp0kirSxbQ%3A1649375874557&ei=gnpPYonMIaGCi-gP-bi62A0&ved=0ahUKEwiJler4k4P3AhUhwQIHHXmcDtsQ4dUDCA4&uact=5&oq=IMAGE_NT_HEADERS+unable+to+read+memory&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsAM6BAgjECc6BAgAEB46BggAEAUQHjoFCCEQoAE6CAghEBYQHRAeOgcIIRAKEKABOgQIIRAVSgQIQRgASgQIRhgAULkGWKnUAWC53AFoB3ABeACAAbQBiAHBH5IBBDAuMjeYAQCgAQHIAQrAAQE&sclient=gws-wiz
-//https://stackoverflow.com/questions/34109184/how-to-get-use-user-input-to-specify-outside-file-location-in-c-will-this-work
-// https://stackoverflow.com/questions/42638242/get-path-from-input-to-read-a-file
+1- https://www.unknowncheats.me/forum/general-programming-and-reversing/326543-winapi-pe-file-read-access-violation-trying-headers-dos-header.html
+
+2- https://reverseengineering.stackexchange.com/questions/17110/run-pe-file-executable-from-memory
+
+3- https://www.google.com/search?q=IMAGE_NT_HEADERS+unable+to+read+memory&rlz=1C1CHBD_arEG976EG976&biw=1270&bih=581&sxsrf=APq-WBuWEpvL-xqumvIEiEsjCp0kirSxbQ%3A1649375874557&ei=gnpPYonMIaGCi-gP-bi62A0&ved=0ahUKEwiJler4k4P3AhUhwQIHHXmcDtsQ4dUDCA4&uact=5&oq=IMAGE_NT_HEADERS+unable+to+read+memory&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsAM6BAgjECc6BAgAEB46BggAEAUQHjoFCCEQoAE6CAghEBYQHRAeOgcIIRAKEKABOgQIIRAVSgQIQRgASgQIRhgAULkGWKnUAWC53AFoB3ABeACAAbQBiAHBH5IBBDAuMjeYAQCgAQHIAQrAAQE&sclient=gws-wiz
+
+4- https://stackoverflow.com/questions/34109184/how-to-get-use-user-input-to-specify-outside-file-location-in-c-will-this-work
+
+5- https://stackoverflow.com/questions/42638242/get-path-from-input-to-read-a-file
