@@ -37,3 +37,9 @@ DLLs and SYS device drivers are both subsets of executables in Windows. They all
 4- https://stackoverflow.com/questions/34109184/how-to-get-use-user-input-to-specify-outside-file-location-in-c-will-this-work
 
 5- https://stackoverflow.com/questions/42638242/get-path-from-input-to-read-a-file
+
+
+![SC1](https://user-images.githubusercontent.com/97065109/230692576-94b125c1-b233-45cb-8ad6-f8d7eb25fb32.png)
+![SC2](https://user-images.githubusercontent.com/97065109/230692577-8465092c-9c5d-4980-8fe1-ec20b88456de.png)
+![SC3](https://user-images.githubusercontent.com/97065109/230692578-409b4314-f199-4a8b-948b-7ff1b889e653.png)
+![SC4](https://user-images.githubusercontent.com/97065109/230692579-2aed71b9-3c47-448e-843c-8c6c4ebb6f76.png)
